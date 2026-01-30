@@ -1,41 +1,43 @@
-# 🎓 Student Management System (Python + SQLite)
+# 🎓 Student Management System
 
-## 📌 Description
-The Student Management System is a Python-based command-line application designed to manage student academic records efficiently.  
-It allows users to store, view, update, and delete student data using a real database.
-
-This project was built to practice core programming concepts and simulate a real-world academic management system.
+A Python-based Student Management System using SQLite to manage student records, grades, and administrative tasks efficiently.  
+This project demonstrates database integration, CRUD operations, and modular Python programming.
 
 ---
 
-## ❓ Problem Statement
-Managing student records manually is time-consuming and error-prone.  
-This system provides a simple digital solution to store student information, calculate grades automatically, and manage records efficiently.
+## 📌 Project Description
+Managing student records manually is time-consuming and prone to errors.  
+This system provides a simple digital solution to:
+- Add new students
+- Store and retrieve marks
+- Calculate grades automatically
+- Update and delete records
+- Keep data persistent using SQLite database
+
+This project was built as a learning exercise and as a demonstration of real-world programming and database skills.
 
 ---
 
 ## ⚙️ Features
-- Add new students with name, roll number, and marks
-- Automatically calculate grades based on marks
-- View all student records
+- Add student information (name, roll number, marks)
+- Automatic grade calculation
+- View all student records in a table format
 - Update student marks and grades
 - Delete student records
-- Permanent data storage using SQLite database
+- Persistent storage using SQLite
 
 ---
 
 ## 🛠️ Technologies Used
-- Python
-- SQLite (built-in Python database)
+- Python 3.x
+- SQLite (Python built-in)
 - Command Line Interface (CLI)
+- Modular programming with separate database and main files
 
 ---
 
-## ▶️ How to Run the Project
-1. Make sure Python is installed on your system
-2. Clone or download the repository
-3. Open terminal in project folder
-4. Run the following command:
-
+## ▶️ How to Run
+1. Make sure Python 3.x is installed on your system
+2. Clone this repository:
 ```bash
-python main.py
+git clone https://github.com/hafsariazkhhan/student-management-system.git
